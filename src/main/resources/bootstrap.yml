@@ -1,0 +1,6 @@
+# To spring-cloud-sleuth can parse application name...
+# File bootstrap.yml is specific to spring-cloud-config and is loaded before the application.yml.
+# File bootstrap.yml is only needed if you are using Spring Cloud.
+spring:
+  application:
+    name: demo.sleuth
